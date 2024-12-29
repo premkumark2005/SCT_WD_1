@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Us</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <nav class="navbar">
+    <div class="logo">My Website</div>
+    <div class="menu">
+      <a href="home.html">Home</a>
+      <a href="about.html" class="active">About</a>
+      <a href="services.html">Services</a>
+      <a href="contact.html">Contact</a>
+    </div>
+  </nav>
+
+  <div class="about">
+    <h1>About Us</h1>
+    <p>We are a team dedicated to providing top-notch services to our clients. Our focus is to deliver high-quality solutions that empower businesses and individuals.</p>
+    <a href="services.html" class="button">Explore Services</a>
+  </div>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+    }
+
+    .navbar {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px 20px;
+      background-color: #333;
+      color: white;
+    }
+
+    .menu a {
+      color: white;
+      text-decoration: none;
+      padding: 10px 15px;
+      margin: 0 5px;
+      background-color: #555;
+      border-radius: 5px;
+    }
+
+    .menu a:hover,
+    .menu a.active {
+      background-color: #888;
+      color: black;
+    }
+
+    .about {
+      height: 100vh;
+      background: linear-gradient(to right, #a18cd1, #fbc2eb);
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding: 20px;
+    }  
+
+    .button {
+      margin-top: 20px;
+      text-decoration: none;
+      padding: 10px 20px;
+      color: white;
+      background-color: #0066cc;
+      border-radius: 5px;
+      transition: 0.3s ease;
+    }
+
+    .button:hover {
+      background-color: #004a99;
+    }
+  </style>
+</body>
+</html>

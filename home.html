@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive Landing Page</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    html, body {
+      height: 100%;
+      width: 100%;
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      overflow-x: hidden;
+    }
+
+    .navbar {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px 20px;
+      background-color: #333;
+      color: white;
+      transition: background-color 0.3s ease;
+      z-index: 1000;
+    }
+
+    .navbar.scrolled {
+      background-color: #444;
+    }
+
+    .navbar a {
+      color: white;
+      text-decoration: none;
+      padding: 10px 15px;
+      margin: 0 5px;
+      background-color: #555;
+      border-radius: 5px;
+      transition: color 0.3s ease, background-color 0.3s ease;
+    }
+
+    .navbar a:hover {
+      background-color: #888;
+      color: #000;
+    }
+
+    .content {
+      margin-top: 70px;
+    }
+
+    .button {
+      display: inline-block;
+      padding: 10px 20px;
+      color: white;
+      background-color: #0066cc;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      text-decoration: none;
+      transition: background-color 0.3s ease;
+    }
+
+    .button:hover {
+      background-color: #004a99;
+    }
+
+    .home, .about, .services, .contact {
+      height: 100vh;
+      width: 100vw;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      flex-direction: column;
+    }
+
+    .home {
+      background: linear-gradient(to right, #ff9a9e, #fad0c4);
+    }
+
+    .about {
+      background: linear-gradient(to right, #a18cd1, #fbc2eb);
+    }
+
+    .services {
+      background: linear-gradient(to right, #667eea, #764ba2);
+    }
+
+    .contact {
+      background: linear-gradient(to right, #89f7fe, #66a6ff);
+    }
+
+  </style>
+</head>
+<body>
+  <nav class="navbar" id="navbar">
+    <div class="logo">My Website</div>
+    <div class="menu">
+      <a href="home.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="services.html">Services</a>
+      <a href="contact.html">Contact</a>
+    </div>
+  </nav>
+
+  <div class="home">
+    <h1>Welcome to My Website</h1>
+    <p>Your one-stop destination for great services.</p>
+    <a href="about.html" class="button">Learn More About Us</a>
+  </div>
+
+  <div class="about">
+    <h1>About Us</h1>
+    <p>We are a team dedicated to providing top-notch services to our clients.</p>
+    <a href="services.html" class="button">Explore Services</a>
+  </div>
+
+  <div class="services">
+    <h1>Our Services</h1>
+    <p>From web development to consulting, we offer a wide range of solutions tailored to your needs.</p>
+    <a href="contact.html" class="button">Contact Us</a>
+  </div>
+
+  <div class="contact">
+    <h1>Contact Us</h1>
+    <p>We'd love to hear from you! Reach out to us for any queries or collaborations.</p>
+    <a href="mailto:info@mywebsite.com" class="button">Email Us</a>
+  </div>
+
+  <script>
+    const navbar = document.getElementById('navbar');
+
+    window.addEventListener('scroll', () => {
+      if (window.scrollY > 50) {
+        navbar.classList.add('scrolled');
+      } else {
+        navbar.classList.remove('scrolled');
+      }
+    });
+  </script>
+</body>
+</html>
