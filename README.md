@@ -13,5 +13,5 @@ CSS: Styling for a visually appealing design.
 JavaScript: Functionality for adding, editing, and managing tasks dynamically.
 # Usage:
 Clone or download the repository.
-Open the index.html file in any modern web browser.
+Open the home.html file in any modern web browser.
 Start managing your tasks efficiently!
