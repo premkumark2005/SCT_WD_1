@@ -1,17 +1,24 @@
-# To-Do Web App
-This is a simple and interactive To-Do Web Application developed as part of my internship at Skill Craft Technology.
+# Responsive Landing Page with Interactive Navigation
+# Description
+This project is a Responsive Landing Page designed as part of an internship task. The landing page features a modern and interactive navigation menu that enhances user experience with the following functionalities:
 
-# Features:
-Add Tasks: Create tasks with a title and optional due date and time.
-Organize Tasks: View tasks in a clean and user-friendly list.
-Mark as Completed: Easily mark tasks as completed or undo them.
-Edit Tasks: Update task details such as title and date.
-Delete Tasks: Remove tasks from the list.
-# Technologies Used:
-HTML: Structure and layout of the app.
-CSS: Styling for a visually appealing design.
-JavaScript: Functionality for adding, editing, and managing tasks dynamically.
-# Usage:
-Clone or download the repository.
-Open the home.html file in any modern web browser.
-Start managing your tasks efficiently!
+Changes color or style when scrolled.
+Highlights menu items on hover.
+Fixed navigation bar visible across all pages.
+The website is fully responsive and includes multiple sections: Home, About, Services, and Contact. Each section is uniquely styled with vibrant gradients to ensure a visually appealing experience.
+
+# Features
+Interactive Navigation Menu:
+Fixed position.
+Style changes on hover and scroll.
+Responsive Design:
+Optimized for various screen sizes (desktop, tablet, and mobile).
+Dynamic Content:
+Links to pages for About, Services, and Contact.
+Embedded video hosted on Google Drive for showcasing the project.
+Media Integration
+A demonstration video is included in the project, hosted on Google Drive, with a view-only link for easy access without compromising security.
+
+
+# Usage
+This project serves as a foundation for creating professional and interactive websites. Feel free to clone, customize, and expand upon it for your own projects!
