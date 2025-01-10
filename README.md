@@ -1,6 +1,6 @@
 # Responsive Landing Page with Interactive Navigation
 # Description
-This project is a Responsive Landing Page designed as part of an internship task. The landing page features a modern and interactive navigation menu that enhances user experience with the following functionalities:
+This project is a Responsive Landing Page. The landing page features a modern and interactive navigation menu that enhances user experience with the following functionalities:
 
 Changes color or style when scrolled.
 Highlights menu items on hover.
